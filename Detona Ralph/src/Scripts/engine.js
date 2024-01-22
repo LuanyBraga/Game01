@@ -21,7 +21,7 @@ const state = {
 }
 
 function playSound(fileName){
-    let audio = new Audio(`./src/audios/${fileName}`);
+    let audio = new Audio(`./src/sons/${fileName}`);
     audio.volume = 0.5;
     audio.play();
 }
